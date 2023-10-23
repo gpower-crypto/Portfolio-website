@@ -41,7 +41,9 @@ function Education(props) {
 
   return (
     <>
-      <Header title={header} />
+      <div style={{ marginTop: "20px" }}>
+        <Header title={header} />
+      </div>
       {data ? (
         <Fade>
           <div style={{ width }} className="section-content-container">

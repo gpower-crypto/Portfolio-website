@@ -1,19 +1,19 @@
 {
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        }
-    ]
+  "education": [
+    {
+      "title": "April 2021 - March 2024",
+      "cardTitle": "BSc (Hons) Computer Science",
+      "cardSubtitle": "University of London Goldsmiths - Sim Global Education, Singapore",
+      "cardDetailedText": "Specialization: Web and Mobile Development\n",
+      "icon": {
+        "src": "images/education/university.png"
+      }
+    },
+    {
+      "title": "Apr 2020",
+      "cardTitle": "High School",
+      "cardSubtitle": "Omega School, Chennai, India",
+      "cardDetailedText": "Marks - 90%"
+    }
+  ]
 }

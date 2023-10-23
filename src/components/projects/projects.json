@@ -3,11 +3,23 @@
     {
       "title": "Singapore Residential Parking App",
       "bodyText": "- React Native app for parking in Singapore\n - Dijkstra's shortest path and machine learning\n - Real-time user data management",
+      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, and Real-Time Data Management. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/SINGAPORE-RESIDENTIAL-PARKING-APP"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP/blob/main/README.md"
         }
+      ],
+      "techStacksAndFrameworks": [
+        "React Native",
+        "Google Maps API",
+        "Expo",
+        "Python",
+        "scikit-learn library"
       ],
       "tags": [
         "React Native",
@@ -17,9 +29,9 @@
       ]
     },
     {
-      "image": "images/projects/social-network.png",
       "title": "Social Network Application",
       "bodyText": "- Social network web app\n - User registration and posting updates\n - Responsive UI and RESTful APIs",
+      "overview": "The Social Network Application is a comprehensive web-based platform designed to facilitate social interactions, including user registration and authentication, real-time chat, posting, commenting, and friend requests. The project encompasses both frontend and backend implementations, utilizing Django for the backend and React for the frontend. It offers a dynamic and engaging user experience with a wide range of features for social networking.",
       "links": [
         {
           "text": "GitHub (Frontend)",
@@ -28,13 +40,26 @@
         {
           "text": "GitHub (Backend)",
           "href": "https://github.com/gpower-crypto/Social-Network---Backend"
+        },
+        {
+          "text": "Readme - Frontend",
+          "href": "https://github.com/gpower-crypto/Social-Network---Frontend#readme"
+        },
+        {
+          "text": "Readme - Backend",
+          "href": "https://github.com/gpower-crypto/Social-Network---Backend#readme"
         }
       ],
+      "techStacksAndFrameworks": [
+        "Django (Backend)",
+        "React (Frontend)",
+        "WebSocket (Django Channels for real-time chat)",
+        "REST Framework (Django REST framework for API endpoints)"
+      ],
       "tags": [
-        "Django",
-        "React",
         "Web Development",
         "Node.js",
+        "Express.js",
         "HTML",
         "CSS",
         "JavaScript"
@@ -48,19 +73,58 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP#readme"
         }
       ],
       "techStacksAndFrameworks": ["React Native", "Expo", "Google Maps API"],
-      "tags": ["React Native", "Expo", "Google Maps API", "React Navigation"]
+      "tags": ["React Native", "Expo", "Google Maps API", "React Navigation"],
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "video": "7oneop5aIJU"
+    },
+    {
+      "image": "images/projects/portfolio-poster.png",
+      "title": "Dev Portfolio",
+      "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/mayankagarwal09/dev-portfolio"
+        },
+        {
+          "text": "Live",
+          "href": "https://mayankagarwal.me"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP/blob/main/README.md"
+        }
+      ],
+      "techStacksAndFrameworks": [
+        "Django (Backend)",
+        "React (Frontend)",
+        "WebSocket (Django Channels for real-time chat)",
+        "REST Framework (Django REST framework for API endpoints)"
+      ],
+      "tags": ["React", "Portfolio", "JavaScript"]
     },
     {
       "title": "Advisorbot",
       "overview": "AdvisorBot is a command-line interface (CLI) application designed for currency trading. It matches bids to asks, provides real-time trend analysis, and offers valuable insights for traders. The bot leverages advanced algorithms and data analysis to assist users in making informed trading decisions.",
-      "bodyText": " - Currency trading CLI designed to facilitate the matching of bids to asks.\n - Provides real-time trend analysis for multiple currency pairs to help traders identify profitable opportunities.\n - Employs advanced algorithms to offer insights into the currency market, enabling traders to make informed decisions.",
+      "bodyText": " - Advisorbot is a C++ program that integrates real-time market data analysis with user command handling.\n - Key components include OrderBook management, CSV data reading, and command parsing.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Advisorbot"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Advisorbot#readme"
         }
       ],
       "techStacksAndFrameworks": ["C++", "STL (Standard Template Library)"],
@@ -68,7 +132,8 @@
       "images": [
         "https://example.com/advisorbot/image1.jpg",
         "https://example.com/advisorbot/image2.jpg"
-      ]
+      ],
+      "video": "CQJYU86TiwM"
     },
     {
       "title": "Otodecks",
@@ -78,6 +143,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/OtoDecks"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/OtoDecks#readme"
         }
       ],
       "techStacksAndFrameworks": ["C++", "JUCE Framework"],
@@ -87,7 +156,12 @@
         "Music Library",
         "GUI Design",
         "Object-Oriented Programming"
-      ]
+      ],
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "video": "UQCuWZUOkq8"
     },
     {
       "title": "Music Visualizer",
@@ -97,6 +171,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Music-Visualiser"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Music-Visualiser#readme"
         }
       ],
       "techStacksAndFrameworks": ["p5.js", "JavaScript", "3D Visualization"],
@@ -105,16 +183,20 @@
         "https://example.com/image1.jpg",
         "https://example.com/image2.jpg"
       ],
-      "video": "your-youtube-video-id"
+      "video": "UcHSIe-mfGw"
     },
     {
       "title": "Health Application - Agile Development",
-      "overview": "The Health Application - Agile Development project is a collaborative effort developed by a group of college students for a course project. It aims to create a user-friendly health management application tailored for the elderly. The project focuses on providing essential features such as online appointment booking, medical records management, and emergency assistance. Developed using agile methodologies, the application aims to streamline healthcare access and enhance the user experience for older adults. The project showcases the team's proficiency in web development, database management, and user interface design within the context of healthcare services for senior citizens.",
+      "overview": "The Health Application - Agile Development project is a collaborative effort developed by a myself and my peers in college for a course project. It aims to create a user-friendly health management application tailored for the elderly. The project focuses on providing essential features such as online appointment booking, medical records management, and emergency assistance. Developed using agile methodologies, the application aims to streamline healthcare access and enhance the user experience for older adults. The project showcases the team's proficiency in web development, database management, and user interface design within the context of healthcare services for senior citizens.",
       "bodyText": " - Analyzed and implemented essential features for an agile health management application.\n - Created user-friendly interfaces for appointment booking, medical records, and emergency assistance.\n - Developed a comprehensive database structure for storing user information and appointment data.\n - Utilized agile methodologies to ensure iterative development and efficient collaboration within the team.",
       "links": [
         {
           "text": "GitHub",
-          "href": "https://github.com/exampleusername/health-application-agile"
+          "href": "https://github.com/gpower-crypto/Health-Application"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Health-Application#readme"
         }
       ],
       "techStacksAndFrameworks": [
@@ -136,7 +218,8 @@
       "images": [
         "https://example.com/image1.jpg",
         "https://example.com/image2.jpg"
-      ]
+      ],
+      "video": "wivZEzLJeZY"
     },
     {
       "title": "Exploring a Superstore's Sales Data",
@@ -146,6 +229,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Superstore-Sales-Data-analysis"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Superstore-Sales-Data-analysis#readme"
         }
       ],
       "techStacksAndFrameworks": [
@@ -178,6 +265,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Order-Sales-Data-Analysis-and-Web-Application"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Order-Sales-Data-Analysis-and-Web-Application#readme"
         }
       ],
       "techStacksAndFrameworks": [
@@ -209,6 +300,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/My-Smart-Home"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/My-Smart-Home#readme"
         }
       ],
       "techStacksAndFrameworks": [
@@ -230,7 +325,7 @@
         "https://example.com/image1.jpg",
         "https://example.com/image2.jpg"
       ],
-      "video": "your-demo-video-link"
+      "video": "IeB7C7QYJXc"
     },
     {
       "title": "Django RESTful Web Application - Protein and Taxonomy Management",
@@ -240,6 +335,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Django-RESTful-Web-Application"
+        },
+        {
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Django-RESTful-Web-Application#readme"
         }
       ],
       "techStacksAndFrameworks": ["Django", "Django REST framework", "Python"],
@@ -253,11 +352,12 @@
       "images": [
         "https://example.com/image1.jpg",
         "https://example.com/image2.jpg"
-      ]
+      ],
+      "video": "ODTJIP7uUic"
     },
     {
       "title": "React Native Calculator App",
-      "overview": "The React Native Calculator App is a versatile mobile application that provides users with a feature-rich calculator for performing arithmetic calculations. This app allows users to input numerical values, perform addition, subtraction, multiplication, division, and other mathematical operations. It offers a user-friendly interface for effortless calculation and includes functionalities such as memory storage, clear, negation, and percentage calculations.",
+      "overview": "The React Native Calculator App is a versatile mobile application that provides users with a feature-rich calculator for performing arithmetic calculations. This app allows users to input numerical values, perform addition, subtraction, multiplication, division, and other mathematical operations. It offers a user-friendly interface for effortless calculation and includes functionalities such as clear, negation, and percentage calculations.",
       "bodyText": " - Implemented a fully functional calculator app in React Native.\n - Provided a user-friendly interface for easy data input and calculation operations.\n - Supported clear, negation, and percentage calculation functionalities.\n - Styled the app with a visually appealing and responsive design.",
       "links": [
         {
@@ -265,8 +365,8 @@
           "href": "https://github.com/gpower-crypto/Calculator-App"
         },
         {
-          "text": "Live",
-          "href": "https://snack.expo.dev/@expomk/calculator-app"
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Calculator-App#readme"
         }
       ],
       "techStacksAndFrameworks": ["React Native", "JavaScript"],
@@ -282,7 +382,6 @@
       ]
     },
     {
-      "image": "images/projects/your-magazine.png",
       "title": "Your Magazine",
       "overview": "Your Magazine is a digital news magazine covering a wide range of topics including technology, sports, and politics. The website is designed to provide users with the latest news and articles in an engaging and accessible manner. It features a responsive design, making it suitable for various devices, and it prioritizes usability and accessibility. Your Magazine aims to deliver a seamless and informative reading experience to its audience.",
       "bodyText": "- A digital news magazine covering technology, sports, and politics.\n - Fully responsive design for cross-device compatibility.\n - Focus on accessibility and usability for an enhanced user experience.",
@@ -292,8 +391,8 @@
           "href": "https://github.com/gpower-crypto/Your-Magazine-website.git"
         },
         {
-          "text": "Live",
-          "href": "https://sharedhrwxuygr.labs.coursera.org/"
+          "text": "Readme",
+          "href": "https://github.com/gpower-crypto/Your-Magazine-website/tree/main#readme"
         }
       ],
       "techStacksAndFrameworks": ["HTML", "CSS", "Bootstrap"],

@@ -1,63 +1,133 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
-     
-            "title": "Languages & Databases",
-            "items" : [
-     
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
-                },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
-                }
-        ]},
+  "intro": "I'm a tech enthusiast and perpetual learner, driven by curiosity and a passion for exploring innovative technologies. Here's a glimpse of the languages, tech, tools, and platforms I've  worked with:",
+
+  "skills": [
+    {
+      "title": "Languages & Databases",
+      "items": [
         {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
-                }
-            ]
+          "icon": "images/skills/js.png",
+          "title": "JavaScript"
         },
         {
-            "title" : "Tools & Platforms",
-            "items": [
-                {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
-                },
-                {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
-                }
-            ]
+          "icon": "images/skills/html.png",
+          "title": "HTML"
+        },
+        {
+          "icon": "images/skills/css.png",
+          "title": "CSS"
+        },
+        {
+          "icon": "images/skills/python.png",
+          "title": "Python"
+        },
+        {
+          "icon": "images/skills/c-plus-plus.svg",
+          "title": "C++"
+        },
+        {
+          "icon": "images/skills/postgres.png",
+          "title": "Postgres"
+        },
+        {
+          "icon": "images/skills/mysql.png",
+          "title": "MySQL"
+        },
+        {
+          "icon": "images/skills/mongo-db.png",
+          "title": "MongoDB"
+        },
+        {
+          "icon": "images/skills/graphql.png",
+          "title": "GraphQL"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks & Technologies",
+      "items": [
+        {
+          "icon": "images/skills/react.png",
+          "title": "React"
+        },
+        {
+          "icon": "images/skills/react-native.png",
+          "title": "React Native"
+        },
+        {
+          "icon": "images/skills/nodejs.png",
+          "title": "Node.js"
+        },
+        {
+          "icon": "images/skills/django.png",
+          "title": "Django"
+        },
+        {
+          "icon": "images/skills/sentry.png",
+          "title": "Sentry"
+        },
+        {
+          "icon": "images/skills/p5js.png",
+          "title": "p5.js"
+        },
+        {
+          "icon": "images/skills/juce.png",
+          "title": "JUCE (C++)"
+        },
+        {
+          "icon": "images/skills/cypress.jpeg",
+          "title": "Cypress"
+        },
+        {
+          "icon": "images/skills/bootstrap.png",
+          "title": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Platforms",
+      "items": [
+        {
+          "icon": "images/skills/git.png",
+          "title": "Git"
+        },
+        {
+          "icon": "images/skills/git-hub.png",
+          "title": "GitHb"
+        },
+        {
+          "icon": "images/skills/docker.png",
+          "title": "Docker"
+        },
+        {
+          "icon": "images/skills/terraform.png",
+          "title": "Terraform"
+        },
+        {
+          "icon": "images/skills/aws.png",
+          "title": "AWS"
+        },
+        {
+          "icon": "images/skills/postman.png",
+          "title": "Postman"
+        },
+        {
+          "icon": "images/skills/jira.png",
+          "title": "Jira"
+        },
+        {
+          "icon": "images/skills/figma.png",
+          "title": "Figma"
+        },
+        {
+          "icon": "images/skills/canva.png",
+          "title": "Canva"
+        },
+        {
+          "icon": "images/skills/medium.png",
+          "title": "Medium"
+        }
+      ]
     }
-]}
+  ]
+}

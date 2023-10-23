@@ -4,6 +4,8 @@ import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
+import ProjectDetails from "./components/ProjectDetails";
+/* eslint-disable */
 
 function MainApp() {
   const [data, setData] = useState(null);
@@ -24,9 +26,11 @@ function MainApp() {
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
             <Route exact path="/" component={Home} />
-            {data
-              && data.sections.map((route) => {
-                const SectionComponent = React.lazy(() => import('./components/' + route.component));
+            {data &&
+              data.sections.map((route) => {
+                const SectionComponent = React.lazy(() =>
+                  import("./components/" + route.component)
+                );
                 return (
                   <Route
                     key={route.headerTitle}
@@ -37,6 +41,7 @@ function MainApp() {
                   />
                 );
               })}
+            <Route path="/project/:title" component={ProjectDetails} />
           </Suspense>
         </Switch>
       </main>

@@ -1,10 +1,13 @@
-import React, { useContext } from 'react';
+/* eslint-disable */
+
+import React, { useContext, useState } from 'react';
 import {
   Button, Card, Badge, Col,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+import { Link } from "react-router-dom";
 
 const styles = {
   badgeStyle: {
@@ -20,6 +23,7 @@ const styles = {
   cardTitleStyle: {
     fontSize: 24,
     fontWeight: 700,
+    marginBottom: 29,
   },
   cardTextStyle: {
     textAlign: 'left',
@@ -56,14 +60,13 @@ const ProjectCard = (props) => {
             {parseBodyText(project.bodyText)}
           </Card.Text>
         </Card.Body>
-
         <Card.Body>
           {project?.links?.map((link) => (
             <Button
               key={link.href}
               style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
+              variant={"outline-" + theme.bsSecondaryVariant}
+              onClick={() => window.open(link.href, "_blank")}
             >
               {link.text}
             </Button>

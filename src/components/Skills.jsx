@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
-import { Container } from 'react-bootstrap';
-import Header from './Header';
-import endpoints from '../constants/endpoints';
-import FallbackSpinner from './FallbackSpinner';
+import React, { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import PropTypes from "prop-types";
+import Fade from "react-reveal";
+import { Container } from "react-bootstrap";
+import Header from "./Header";
+import endpoints from "../constants/endpoints";
+import FallbackSpinner from "./FallbackSpinner";
 
 const styles = {
   iconStyle: {
@@ -15,7 +15,7 @@ const styles = {
     marginBottom: 0,
   },
   introTextContainer: {
-    whiteSpace: 'pre-wrap',
+    whiteSpace: "pre-wrap",
   },
 };
 
@@ -31,7 +31,7 @@ function Skills(props) {
 
   useEffect(() => {
     fetch(endpoints.skills, {
-      method: 'GET',
+      method: "GET",
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -40,7 +40,9 @@ function Skills(props) {
 
   return (
     <>
-      <Header title={header} />
+      <div style={{ marginTop: "20px" }}>
+        <Header title={header} />
+      </div>
       {data ? (
         <Fade>
           <div className="section-content-container">
@@ -49,9 +51,9 @@ function Skills(props) {
               {data.skills?.map((rows) => (
                 <div key={rows.title}>
                   <br />
-                  <h3>{rows.title}</h3>
+                  <h3 style={{ marginBottom: 25 }}>{rows.title}</h3>
                   {rows.items.map((item) => (
-                    <div key={item.title} style={{ display: 'inline-block' }}>
+                    <div key={item.title} style={{ display: "inline-block" }}>
                       <img
                         style={styles.iconStyle}
                         src={item.icon}
@@ -65,7 +67,9 @@ function Skills(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : (
+        <FallbackSpinner />
+      )}
     </>
   );
 }
