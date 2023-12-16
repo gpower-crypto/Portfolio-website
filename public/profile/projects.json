@@ -2,11 +2,12 @@
   "projects": [
     {
       "title": "Singapore Residential Parking App",
-      "bodyText": "- React Native app for parking in Singapore\n - Dijkstra's shortest path and machine learning\n - Real-time user data management",
+      "bodyText": "- React Native app for parking in Singapore\n - Dijkstra's shortest path for route optimization\n - Machine learning algorithms for predictive parking\n - Real-time user data management\n - AI Chatbot for natural language processing",
+      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, Real-Time Data Management, and AI Chatbot Assistance. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. The AI Chatbot, powered by RAG, Anthropic Claude LLM API, and LLM prompts, provides natural language processing capabilities, enhancing user interactions and answering parking-related queries. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
       "links": [
         {
           "text": "GitHub",
-          "href": "https://github.com/gpower-crypto/SINGAPORE-RESIDENTIAL-PARKING-APP"
+          "href": "https://github.com/gpower-crypto/Residential-Parking-Moblie-App"
         }
       ],
       "tags": [
@@ -14,6 +15,36 @@
         "JavaScript",
         "Machine Learning",
         "Dijkstra's Algorithm"
+      ]
+    },
+    {
+      "title": "Residential Parking API",
+      "overview": "The Residential Parking API is tailored to assist users in finding available parking spots within residential areas. It utilizes machine learning models to predict parking spot availability based on parameters such as location, day, and time. Additionally, the API offers features to retrieve nearby residential area information. The service also includes an AI chatbot feature for parking assistance, enhancing user interaction and providing a seamless experience.",
+      "bodyText": " - Developed an API for predicting parking availability in residential areas.\n - Utilized machine learning models for accurate availability forecasts based on user-provided parameters.\n - Integrated database functionalities to manage parking spot and residential area data.\n - Enabled users to contribute and update parking availability data for better predictions.\n - Implemented robust error handling for effective error responses.\n - Integrated an AI chatbot feature for providing parking assistance and enhancing user interaction.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/gpower-crypto/Residential-Parking-API"
+        }
+      ],
+      "techStacksAndFrameworks": [
+        "Node.js",
+        "Express.js",
+        "Python",
+        "Machine Learning",
+        "SQLite Database Integration"
+      ],
+      "tags": [
+        "Residential Parking",
+        "Parking Availability Prediction",
+        "Machine Learning",
+        "Database Integration",
+        "API Development",
+        "Postman"
+      ],
+      "images": [
+        "https://example.com/api-residential-screenshot1.jpg",
+        "https://example.com/api-residential-screenshot2.jpg"
       ]
     },
     {
