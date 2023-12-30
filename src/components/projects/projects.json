@@ -16,10 +16,10 @@
       ],
       "techStacksAndFrameworks": [
         "React Native",
-        "Google Maps API",
         "Expo",
         "Python",
-        "scikit-learn library"
+        "scikit-learn library",
+        "Node.js Server"
       ],
       "tags": [
         "React Native",
