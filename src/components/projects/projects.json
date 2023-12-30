@@ -144,8 +144,8 @@
     },
     {
       "title": "Advisorbot",
-      "overview": "AdvisorBot is a command-line interface (CLI) application designed for currency trading. It matches bids to asks, provides real-time trend analysis, and offers valuable insights for traders. The bot leverages advanced algorithms and data analysis to assist users in making informed trading decisions.",
-      "bodyText": " - Advisorbot is a C++ program that integrates real-time market data analysis with user command handling.\n - Key components include OrderBook management, CSV data reading, and command parsing.",
+      "overview": "AdvisorBot is a command-line interface (CLI) application designed for currency trading. It matches bids to asks, provides real-time trend analysis, and offers valuable insights for traders. The bot leverages advanced algorithms and data analysis to assist users in making informed trading decisions. Advisorbot communicates with a Node.js server to interpret user messages using AI from Anthropic and Hugging Face API to help execute the respective commands in the application. The server facilitates the interaction between the user and the application, which helps in providing real-time financial insights.",
+      "bodyText": " - A generative AI co-pilot command line interface (CLI) application for currency trading.\n - Advisorbot is a C++ program that integrates real-time market data analysis with user command handling.\n - Key components include OrderBook management, CSV data reading, and command parsing.",
       "links": [
         {
           "text": "GitHub",
@@ -157,7 +157,11 @@
         }
       ],
       "techStacksAndFrameworks": ["C++", "STL (Standard Template Library)"],
-      "tags": ["C++", "Financial Analysis", "Command-Line Tool"],
+      "tags": [
+        "C++",
+        "Financial Analysis",
+        "Command-Line Tool, Node.js Server, AI, Python"
+      ],
       "images": [
         "https://example.com/advisorbot/image1.jpg",
         "https://example.com/advisorbot/image2.jpg"
