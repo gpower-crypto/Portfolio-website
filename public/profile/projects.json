@@ -94,7 +94,7 @@
     },
     {
       "title": "Parking App",
-      "overview": "The Parking Solution App is focused on providing a user-friendly approach to parking. It utilizes the device's GPS to offer precise location data, allowing users to identify parking spots with accuracy. The accelerometer sensor is harnessed to create a compass-like arrow for user orientation. The application securely manages user preferences and storage with AsyncStorage. Smooth navigation and screen transitions are made possible through React Navigation.",
+      "overview": "The Parking Solution App is focused on providing a user-friendly approach to parking. It utilizes the device's GPS to offer precise location data, allowing users to identify parking spots with accuracy. It uses the LTA DataMall API to get parking spots nearby in Singapore and uses Geoapify API to get directions to the parking locations. The accelerometer sensor is harnessed to create a compass-like arrow for user orientation. The application securely manages user preferences and storage with AsyncStorage. Smooth navigation and screen transitions are made possible through React Navigation.",
       "bodyText": " - A React Native mobile app designed for streamlined parking solutions using location services, accelerometer, and external APIs.\n - Key components include location services, accelerometer, storage, and navigation.",
       "links": [
         {
