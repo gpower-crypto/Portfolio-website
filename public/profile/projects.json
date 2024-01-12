@@ -3,11 +3,19 @@
     {
       "title": "Singapore Residential Parking App",
       "bodyText": "- React Native app for parking in Singapore\n - Dijkstra's shortest path for route optimization\n - Machine learning algorithms for predictive parking\n - Real-time user data management\n - AI Chatbot for natural language processing",
-      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, Real-Time Data Management, and AI Chatbot Assistance. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. The AI Chatbot, powered by RAG, Anthropic Claude LLM API, and LLM prompts, provides natural language processing capabilities, enhancing user interactions and answering parking-related queries. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
+      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, Real-Time Data Management, and AI Chatbot Assistance. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. The AI Chatbot, powered by RAG, Open AI LLM API, and LLM prompts, provides natural language processing capabilities, enhancing user interactions and answering parking-related queries. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Residential-Parking-Moblie-App"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/gpower-crypto/Residential-Parking-Moblie-App"
+        },
+        {
+          "text": "Live",
+          "href": "https://snack.expo.dev/@expomk/residential-parking-"
         }
       ],
       "tags": [
@@ -15,7 +23,8 @@
         "JavaScript",
         "Machine Learning",
         "Dijkstra's Algorithm"
-      ]
+      ],
+      "image": "images/projects/parking-app.jpg"
     },
     {
       "title": "Residential Parking API",
@@ -25,6 +34,10 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Residential-Parking-API"
+        },
+        {
+          "text": "Live Usage",
+          "href": "https://snack.expo.dev/@expomk/residential-parking-"
         }
       ],
       "techStacksAndFrameworks": [
@@ -59,6 +72,14 @@
         {
           "text": "GitHub (Backend)",
           "href": "https://github.com/gpower-crypto/Social-Network---Backend"
+        },
+        {
+          "text": "Live Frontend",
+          "href": "http://socialnetwork-project.s3-website-us-east-1.amazonaws.com"
+        },
+        {
+          "text": "Live Backend",
+          "href": "http://socialnetwork-lb-222140309.us-east-1.elb.amazonaws.com:8000/api/"
         }
       ],
       "tags": [
@@ -79,10 +100,14 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP"
+        },
+        {
+          "text": "Live",
+          "href": "https://snack.expo.dev/@expomk/parking-slots-app"
         }
       ],
-      "techStacksAndFrameworks": ["React Native", "Expo", "Google Maps API"],
-      "tags": ["React Native", "Expo", "Google Maps API", "React Navigation"]
+      "techStacksAndFrameworks": ["React Native", "Expo", "API Integration"],
+      "tags": ["React Native", "Expo", "React Navigation", "API Integration"]
     },
     {
       "title": "Advisorbot",
@@ -91,6 +116,10 @@
       "links": [
         {
           "text": "GitHub",
+          "href": "https://github.com/gpower-crypto/Advisorbot"
+        },
+        {
+          "text": "GitHub Chat API Server",
           "href": "https://github.com/gpower-crypto/Advisorbot"
         }
       ],
@@ -125,7 +154,8 @@
         "Music Library",
         "GUI Design",
         "Object-Oriented Programming"
-      ]
+      ],
+      "image": "images/projects/oto-decks.png"
     },
     {
       "title": "Music Visualizer",
@@ -135,14 +165,14 @@
         {
           "text": "GitHub",
           "href": "https://github.com/gpower-crypto/Music-Visualiser"
+        },
+        {
+          "text": "Live",
+          "href": "https://gpower-crypto.github.io/Music-Visualiser/"
         }
       ],
       "techStacksAndFrameworks": ["p5.js", "JavaScript", "3D Visualization"],
       "tags": ["Music Visualizer", "p5.js", "Audio Visualization", "3D Shapes"],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
       "video": "your-youtube-video-id"
     },
     {

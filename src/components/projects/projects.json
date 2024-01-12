@@ -3,7 +3,7 @@
     {
       "title": "Singapore Residential Parking App",
       "bodyText": "- React Native app for parking in Singapore\n - Dijkstra's shortest path for route optimization\n - Machine learning algorithms for predictive parking\n - Real-time user data management\n - AI Chatbot for natural language processing",
-      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, Real-Time Data Management, and AI Chatbot Assistance. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. The AI Chatbot, powered by RAG, Anthropic Claude LLM API, and LLM prompts, provides natural language processing capabilities, enhancing user interactions and answering parking-related queries. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
+      "overview": "A React Native mobile app for crowd-sourced parking in residential areas across Singapore. This innovative solution incorporates the following key features: Efficient Route Optimization, Predictive Parking, Real-Time Data Management, and AI Chatbot Assistance. Implements Dijkstra's shortest path algorithm using cached map data to optimize driving routes, reducing reliance on external mapping services. Employs cluster machine learning algorithms, including scikit-learn, to predict parking spot availability, making parking hassle-free for users. The AI Chatbot, powered by RAG, Open AI LLM API, and LLM prompts, provides natural language processing capabilities, enhancing user interactions and answering parking-related queries. Seamlessly manages real-time user-generated data, ensuring accurate and up-to-date information.",
       "links": [
         {
           "text": "GitHub",
@@ -12,6 +12,10 @@
         {
           "text": "Readme",
           "href": "https://github.com/gpower-crypto/Residential-Parking-Moblie-App#readme"
+        },
+        {
+          "text": "Expo Live Link",
+          "href": "https://snack.expo.dev/@expomk/residential-parking-"
         }
       ],
       "techStacksAndFrameworks": [
@@ -40,6 +44,9 @@
         {
           "text": "Readme",
           "href": "https://github.com/gpower-crypto/Residential-Parking-API#readme"
+        },
+        {
+          "text": "Open Source Live API Endpoint: parking-api-LB-1578947644.us-east-1.elb.amazonaws.com:3000"
         }
       ],
       "techStacksAndFrameworks": [
@@ -77,6 +84,14 @@
         {
           "text": "Readme - Backend",
           "href": "https://github.com/gpower-crypto/Social-Network---Backend#readme"
+        },
+        {
+          "text": "Live Frontend",
+          "href": "http://socialnetwork-project.s3-website-us-east-1.amazonaws.com"
+        },
+        {
+          "text": "Live Backend",
+          "href": "http://socialnetwork-lb-222140309.us-east-1.elb.amazonaws.com:8000/api/"
         }
       ],
       "techStacksAndFrameworks": [
@@ -97,7 +112,7 @@
     },
     {
       "title": "Parking App",
-      "overview": "The Parking Solution App is focused on providing a user-friendly approach to parking. It utilizes the device's GPS to offer precise location data, allowing users to identify parking spots with accuracy. The accelerometer sensor is harnessed to create a compass-like arrow for user orientation. The application securely manages user preferences and storage with AsyncStorage. Smooth navigation and screen transitions are made possible through React Navigation.",
+      "overview": "The Parking Solution App is focused on providing a user-friendly approach to parking. It utilizes the device's GPS to offer precise location data, allowing users to identify parking spots with accuracy. It uses the LTA DataMall API to get parking spots nearby in Singapore. The accelerometer sensor is harnessed to create a compass-like arrow for user orientation. The application securely manages user preferences and storage with AsyncStorage. Smooth navigation and screen transitions are made possible through React Navigation.",
       "bodyText": " - A React Native mobile app designed for streamlined parking solutions using location services, accelerometer, and external APIs.\n - Key components include location services, accelerometer, storage, and navigation.",
       "links": [
         {
@@ -107,41 +122,15 @@
         {
           "text": "Readme",
           "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP#readme"
-        }
-      ],
-      "techStacksAndFrameworks": ["React Native", "Expo", "Google Maps API"],
-      "tags": ["React Native", "Expo", "Google Maps API", "React Navigation"],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
-      "video": "7oneop5aIJU"
-    },
-    {
-      "image": "images/projects/portfolio-poster.png",
-      "title": "Dev Portfolio",
-      "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/dev-portfolio"
         },
         {
           "text": "Live",
-          "href": "https://mayankagarwal.me"
-        },
-        {
-          "text": "Readme",
-          "href": "https://github.com/gpower-crypto/SINGAPORE-PARKING-APP/blob/main/README.md"
+          "href": "https://snack.expo.dev/@expomk/parking-slots-app"
         }
       ],
-      "techStacksAndFrameworks": [
-        "Django (Backend)",
-        "React (Frontend)",
-        "WebSocket (Django Channels for real-time chat)",
-        "REST Framework (Django REST framework for API endpoints)"
-      ],
-      "tags": ["React", "Portfolio", "JavaScript"]
+      "techStacksAndFrameworks": ["React Native", "Expo", "LTA open data API"],
+      "tags": ["React Native", "Expo", "LTA open data API", "React Navigation"],
+      "video": "7oneop5aIJU"
     },
     {
       "title": "Advisorbot",
@@ -155,6 +144,10 @@
         {
           "text": "Readme",
           "href": "https://github.com/gpower-crypto/Advisorbot#readme"
+        },
+        {
+          "text": "GitHub Chat API Server",
+          "href": "https://github.com/gpower-crypto/Advisorbot"
         }
       ],
       "techStacksAndFrameworks": ["C++", "STL (Standard Template Library)"],
@@ -162,10 +155,6 @@
         "C++",
         "Financial Analysis",
         "Command-Line Tool, Node.js Server, AI, Python"
-      ],
-      "images": [
-        "https://example.com/advisorbot/image1.jpg",
-        "https://example.com/advisorbot/image2.jpg"
       ],
       "video": "CQJYU86TiwM"
     },
@@ -191,10 +180,6 @@
         "GUI Design",
         "Object-Oriented Programming"
       ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
       "video": "UQCuWZUOkq8"
     },
     {
@@ -209,15 +194,14 @@
         {
           "text": "Readme",
           "href": "https://github.com/gpower-crypto/Music-Visualiser#readme"
+        },
+        {
+          "text": "Live Visualiser",
+          "href": "https://gpower-crypto.github.io/Music-Visualiser/"
         }
       ],
       "techStacksAndFrameworks": ["p5.js", "JavaScript", "3D Visualization"],
-      "tags": ["Music Visualizer", "p5.js", "Audio Visualization", "3D Shapes"],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
-      "video": "UcHSIe-mfGw"
+      "tags": ["Music Visualizer", "p5.js", "Audio Visualization", "3D Shapes"]
     },
     {
       "title": "Health Application - Agile Development",
@@ -248,10 +232,6 @@
         "Web Development",
         "Database Management",
         "User Interface Design"
-      ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
       ],
       "video": "wivZEzLJeZY"
     },
@@ -285,10 +265,6 @@
         "Matplotlib",
         "Seaborn",
         "Jupyter Notebook"
-      ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
       ]
     },
     {
@@ -320,10 +296,6 @@
         "MySQL",
         "HTML",
         "CSS"
-      ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
       ]
     },
     {
@@ -355,10 +327,6 @@
         "MySQL",
         "EJS"
       ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
       "video": "IeB7C7QYJXc"
     },
     {
@@ -383,10 +351,6 @@
         "Django Admin",
         "Unit Testing"
       ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
       "video": "ODTJIP7uUic"
     },
     {
@@ -409,10 +373,6 @@
         "React Native",
         "Mobile App Development",
         "Arithmetic Operations"
-      ],
-      "images": [
-        "https://example.com/screenshot1.jpg",
-        "https://example.com/screenshot2.jpg"
       ]
     },
     {
@@ -435,12 +395,7 @@
         "Responsive Design",
         "Accessibility",
         "Usability"
-      ],
-      "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
-      ],
-      "video": "https://youtu.be/your-magazine-video"
+      ]
     }
   ]
 }

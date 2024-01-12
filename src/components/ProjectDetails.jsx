@@ -84,12 +84,12 @@ const ProjectDetails = () => {
           ))}
       </p>
 
-      {/* Project Images and Videos Header */}
-      <h3 style={styles.header}>Project Images</h3>
       {/* Project Images and Videos Body */}
       <p style={styles.body}>
         {project.images && project.images.length > 0 && (
           <div>
+            <h3 style={styles.header}>Project Images</h3>
+
             {project.images.map((image, index) => (
               <span key={index}>
                 -{" "}
@@ -138,7 +138,11 @@ const ProjectDetails = () => {
       {/* See More Body */}
       <p style={styles.body}>
         {project.links
-          .filter((link) => link.text.toLowerCase().includes("readme"))
+          .filter(
+            (link) =>
+              !link.text.toLowerCase().includes("github") &&
+              !link.text.toLowerCase().includes("Expo Live Link")
+          )
           .map((readmeLink, index) => (
             <span key={index}>
               -{" "}
@@ -148,7 +152,7 @@ const ProjectDetails = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                More Info ({readmeLink.text})
+                {readmeLink.text}{" "}
               </a>
               <br />
             </span>
