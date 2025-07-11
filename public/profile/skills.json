@@ -108,6 +108,10 @@
           "title": "AWS"
         },
         {
+          "icon": "images/skills/google-cloud.png",
+          "title": "GCP"
+        },
+        {
           "icon": "images/skills/postman.png",
           "title": "Postman"
         },

@@ -1,33 +1,29 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Full Stack Developer",
+            "subtitle": "Wubble.ai Pte Ltd, Singapore",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Delivered Wubble.ai's **B2B AI-music platform** — a responsive, multi-modal web app using **React.js** and **Tailwind** — that enabled enterprises to generate royalty-free tracks from text, image, video, or audio prompts with near-instant previews; reduced first-preview time from **30s to < 5s**.",
+                "Designed and deployed **RESTful APIs** with optimized **PostgreSQL** schemas for music assets, billing, analytics, and RBAC; achieved **99% uptime** and reduced query latency by **30%**.",
+                "Built a secure, low-latency **audio-streaming pipeline** on **Google Cloud** using Cloud Memorystore (Redis) and Cloud Storage that delivered instant previews of AI-composed tracks; reduced first-byte latency by **50%**.",
+                "Developed **Stripe-integrated billing**, enterprise **RBAC** team workflows, and payment tracking, enabling same-day onboarding and automated invoicing for clients; achieved **99% payment uptime** and reduced manual finance effort by **50%**.",
+                "Automated **Google Cloud infrastructure** with **Terraform** and **Docker**, enabling zero-downtime rollouts; reduced deploy time from **20 min to 5 min** and trimmed monthly cloud spend **25%** via autoscaling.",
+                "Implemented **unit and integration testing** using **Jest** and **Cypress**, and conducted cross-browser/device compatibility testing with **LambdaTest**; enhanced application stability and user experience across various environments."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Jul 2024 – Feb 2025"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
+            "title": "Freelance ML Engineer",
+            "subtitle": "Finstein Advisory Service LLP, Singapore",
             "workType": "Freelance",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Built a **machine learning–based revenue forecasting tool** that connects to **QuickBooks**, allows users to upload or fetch revenue data, select variables and models, and generate revenue forecasts.",
+                "Developed the solution using **Python**, **Streamlit**, and **scikit-learn** with **Intuit QuickBooks API** integration for seamless data import and processing.",
+                "Created an intuitive interface that enables users to select independent and dependent variables and choose from multiple ML models on the fly to predict revenue trends."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Dec 2023 – Jul 2024"
         }
     ]
 }

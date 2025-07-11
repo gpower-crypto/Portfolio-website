@@ -16,9 +16,19 @@
       "headerTitle": "Education"
     },
     {
+      "component": "Experience",
+      "path": "/experience",
+      "headerTitle": "Experience"
+    },
+    {
       "component": "Projects",
       "path": "/projects",
       "headerTitle": "Projects"
+    },
+    {
+      "component": "Contact",
+      "path": "/contact",
+      "headerTitle": "Contact"
     }
   ]
 }

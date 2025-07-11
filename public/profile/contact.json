@@ -1,0 +1,26 @@
+{
+  "intro": "I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and software development. Feel free to reach out through any of the channels below!",
+  "contactMethods": [
+    {
+      "title": "Email",
+      "description": "Best way to reach me for professional inquiries, job opportunities, or project collaborations.",
+      "value": "mohanlmos@gmail.com",
+      "link": "mailto:mohanlmos@gmail.com",
+      "social": "email"
+    },
+    {
+      "title": "LinkedIn",
+      "description": "Connect with me on LinkedIn to view my professional network and career updates.",
+      "value": "mohan-krishna-full-stack-dev",
+      "link": "https://www.linkedin.com/in/mohan-krishna-full-stack-dev/",
+      "social": "linkedin"
+    },
+    {
+      "title": "GitHub",
+      "description": "Explore my code repositories and technical projects.",
+      "value": "gpower-crypto",
+      "link": "https://github.com/gpower-crypto",
+      "social": "github"
+    }
+  ]
+}

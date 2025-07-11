@@ -1,0 +1,127 @@
+﻿MOHAN KRISHNA
+LinkedIn | P: +91 7207663888 | mohanlmos@gmail.com | Hyderabad, India| GitHub | Portfolio
+
+
+Full stack software engineer with experience in design and development of front end user interfaces, back end programming, APIs, database queries, AWS cloud deployment, generative AI chatbots and machine learning for  responsive mobile & web applications. Team player with good communication skills, pays attention to details.
+
+
+Education
+
+
+BSc (Hons) COMPUTER SCIENCE, Specialization: Web &  Mobile Development, Grade 81%        April 2021 - March 2024
+University of London Goldsmiths, SIM Global Education                                                         Full time student in Singapore campus
+
+
+Certifications
+
+
+Algo Expert certification:  Implemented 100 algorithms including Dijkstra’s, Topological Sort & more.           [github] [Certificate]
+Namaste React certification:   Learned and applied basic and advanced react concepts.                                 [github] [Certificate]
+
+
+Full stack software developer skills
+
+
+Javascript & Python (3 years), CSS, HTML, MUI, Tailwind, C++, C#, NodeJS, React web & React native, Redux, REST & GraphQL APIs, Apollo client, Hasura, Django, SQLite, MySQL, Postgres, MongoDB, Figma, Anthropic Claude LLM API, RAG, CI/CD, Dockers, Terraform,  AWS (S3, ELB, ECS, ECR) GCP, Automation testing (Jest, Chai, Cypress), Jira, Postman, Github.
+
+
+Work Experience
+
+
+Full Stack Developer, Wubble.ai Pte Ltd, Singapore  ( https://wubble.ai )                                        July 2024 - Feb 2025
+
+
+Company Overview:
+Wubble.ai is Singapore’s leading B2B AI-powered music generation platform, backed by Antler and Google Cloud. It enables enterprises to create royalty-free music instantly for commercial use, serving global clients like Disney, Spotify, and Starbucks.
+
+
+* Frontend Development:
+* Developed a responsive web interface using React.js and Tailwind CSS, ensuring a seamless experience across devices.
+* Developed a real-time AI music generation preview with advanced audio streaming capabilities.
+* Designed and built a multi-modal music generation interface, enabling text, audio, video and image to music.
+* Created and optimized UI components for music asset management, user roles, and user analytics.
+* Back-End Development: 
+* Designed and developed scalable RESTful APIs using Node.js/Express.js for handling music generation, authentication, platform features and asset management.
+* Designed and optimized a PostgreSQL database schema to efficiently store user data, music metadata, and analytics.
+* Implemented JWT-based authentication for secure user login and session management.
+* Integrated AI music generation models via custom APIs, implementing error handling and retry mechanisms.
+* Engineered secure audio streaming and file storage solutions using Google cloud storage.
+
+
+* Billing & Team Management: 
+* Implemented a comprehensive subscription system using Stripe API, featuring:
+   * Flexible plan selection and management.
+   * Automated recurring billing and usage-based calculations.
+   * Invoice generation, payment tracking, and payment processing.
+* Developed an enterprise-grade team management system with:
+   * Hierarchical user roles and RBAC (role-based access control).
+   * Team dashboards, audit logs, bulk invitations, and team collaboration tools.
+   *  Custom approval workflows for enterprise clients.
+
+
+.
+
+
+*  Cloud Infrastructure & DevOps:
+* Architected GCP infrastructure using Terraform, including: Resource provisioning, security configurations, auto-scaling policies, and load balancing.
+* Containerized application services using Docker, implementing:
+   * Optimized multi-stage Dockerfiles and container orchestration.
+   * Cloud-based registry management for seamless deployments.
+* Deployed and managed services on Google Cloud Run and Cloud SQL.
+* Implemented error tracking (Sentry) and analytics (Posthog Analytics) for performance monitoring.
+* Managed multi-environment deployments (development, staging, production).
+* Made Frontend deployment using Firebase.
+* Testing: Implemented unit and integration tests using Jest, Cypress to ensure code quality and reliability. Conducted cross-browser and device compatibility testing using LambdaTest to ensure consistent performance across different environments.
+* System Design: Developed system architecture focused on scalability and performance optimization.
+
+
+Tech Stack:
+
+
+React.js, Tailwind CSS, Node.js, Express.js, PostgreSQL, Stripe API, Google Cloud (Cloud Run, Cloud SQL), Firebase, Docker, Terraform, CI/CD, Jest, Cypress, Google Analytics, Posthog, Sentry.
+
+
+Freelance project for Finstein Advisory Service LLP, Singapore ( https://finstein.ai/ )                December 2023 - July 2024 
+
+
+* Machine learning based revenue forecasting tool: Upload revenue data or get data via Intuit QuickBooks API, select independent and dependent variables and choose any ML model on the fly to predict revenue.
+* Technology stack (Technical skills): Python, Streamlit, scikit-learn and Intuit QuickBooks API.
+
+
+Full Stack Projects
+
+
+Mobile parking app for Singapore residential streets w/ AI co-pilot                                           June - December 2023
+
+
+React Native app for crowd-sourced parking where users can access and update information on available parking slots.
+* AI co-pilot with NLP chat capabilities (RAG, Anthropic Claude/Open AI LLM API and LLM prompts). 
+* Server side programming:
+1. Implemented Dijkstra's shortest path algorithm using cached maps data to optimize routes and reduce reliance on costly external mapping services.
+2. Developed Node.js based REST API server for real-time parking info. Can be used by third-party apps as well. [link]
+3. Cluster machine learning leveraging scikit-learn, to predict parking spot availability for areas with insufficient data.
+* Technology stack (Technical skills): React Native, Expo, Python, Node.js (Express JS), SQLite, Javascript, Overpass API.
+* [App demo: https://youtu.be/hbkWpIMpD-c] [github link] [Full project details link]
+
+
+Currency trade GPT application                                                                                                      March 2023 - December 2023
+
+
+* Currency trade GPT: A generative AI co-pilot (Anthropic Claude API, LLM prompts) command line interface (CLI) application for currency trading. Matches bids to asks, provides real-time trend analysis, and offers valuable insights for traders.
+* Technology stack (Technical skills):  C++, Python, MySQL, Node.js (Express JS), Postman. Github [Currency Trader GPT]
+
+
+Web applications for business analytics, social media and healthcare                               April 2021 - February 2023
+
+
+* Sales data business analytics: Data validation, exploratory data analysis (EDA), time series analysis, entity relationship (E/R) model for insights into customer behavior, regional trends & identify areas for business growth and optimization.
+* Social media application: Delivering a seamless user experience through a responsive interface and robust backend.
+* Health application: A user-friendly health management application tailored for the elderly built by Agile methodology.
+* Technology stack for above applications (Technical skills): Code: Live URL Github: Proj1, Proj2, 2.1, Proj3, Proj4, Proj5
+
+
+1. React, Django, JWT tokens (SimpleJWT), MySQL, Python, Cypress UI automation testing, Javascript, Postgres.
+2. AWS deployment : Dockers, Terraform, AWS (S3, ELB, ECS, ECR). 
+
+
+Hobbies : Running, guitar, basketball and singing.

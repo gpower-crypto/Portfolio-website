@@ -1,0 +1,54 @@
+﻿MOHAN KRISHNA
+LinkedIn · GitHub · Portfolio | +91 7207663888 · mohanlmos@gmail.com · Hyderabad, India
+
+
+SUMMARY
+Full-stack Software Engineer with 4+ years of experience building scalable web and mobile applications. Skilled across front-end and back-end development, API integration, AI-powered systems, and cloud-native deployments. Focused on writing clean, maintainable code, designing scalable architectures, and solving complex algorithmic challenges in agile, fast-paced environments.
+WORK EXPERIENCE
+Full‑Stack Developer — Wubble.ai Pte Ltd, Singapore (remote)
+Jul 2024 – Feb 2025
+* Delivered Wubble.ai’s B2B AI-music platform — a responsive, multi-modal web app using React.js and Tailwind — that enabled enterprises to generate royalty-free tracks from text, image, video, or audio prompts with near-instant previews; reduced first-preview time from 30 s to < 5 s.
+
+
+* Designed and deployed RESTful APIs with optimized PostgreSQL schemas for music assets, billing, analytics, and RBAC; achieved 99% uptime and reduced query latency by 30%.
+
+
+* Built a secure, low-latency audio-streaming pipeline on Google Cloud using Cloud Memorystore (Redis) and Cloud Storage that delivered instant previews of AI-composed tracks; reduced first-byte latency by 50%, and enabled smooth playback and reliable downloads for global users.
+
+   * Developed Stripe-integrated billing, enterprise RBAC team workflows, and payment tracking, enabling same-day onboarding and automated invoicing for clients; achieved 99% payment uptime and reduced manual finance effort by 50%.
+
+
+   * Automated Google Cloud infrastructure with Terraform and Docker, enabling zero-downtime rollouts; reduced deploy time from 20 min to 5 min and trimmed monthly cloud spend 25% via autoscaling.
+
+
+   * Implemented unit and integration testing using Jest and Cypress, and conducted cross-browser/device compatibility testing with LambdaTest; enhanced application stability and user experience across various environments.
+Freelance ML Engineer — Finstein Advisory Service LLP, Singapore
+Dec 2023 – Jul 2024
+   * Built a machine learning–based revenue forecasting tool that connects to QuickBooks, allows users to upload or fetch revenue data, select variables and models, and generate revenue forecasts.
+	
+
+	PROJECTS
+Singapore Residential Parking App
+Jun 2023 – Dec 2023
+   * Led full-stack development of a mobile-first, crowdsourced parking app using React Native and Node.js, featuring an AI copilot that predicts spot availability and enables real-time user updates.
+Currency Trade GPT
+Mar 2023 – Dec 2023
+   * Designed and engineered a high-performance C++/Python command-line AI copilot that matches currency bids and asks, processes 50k quotes/sec, and streams real-time market insights to assist traders.
+EDUCATION
+Bachelor of Science (Hons) in Computer Science
+Specialization: Web & Mobile Development
+Honours: First Class Honours
+University of London, Goldsmiths — SIM Global Education, Singapore
+Apr 2021 – Mar 2024
+CERTIFICATIONS
+   * AlgoExpert Algorithms Certificate (2023)
+   * Namaste React Certificate (2023)
+   * Google IT Support Professional Certificate (2021)
+TECHNICAL SKILLS
+Languages:  JavaScript (ES6+) · TypeScript · Python ·  C++ · SQL
+Front-End: React · React Native · Tailwind · HTML5 · CSS3
+Back-End: Node.js · Express · Django · REST · GraphQL (Apollo, Hasura)
+Databases: PostgreSQL · MySQL · MongoDB · SQLite
+Cloud & DevOps: AWS (EC2, S3, ECS, ECR) · GCP (Cloud Run, SQL, Firebase) · Docker · Terraform · CI/CD
+AI & Data: OpenAI · Claude · RAG · scikit-learn · NLP · Langflow
+Tools & Testing: Git · GitHub Actions · Jira · Postman · Jest · Cypress · Sentry · PostHog · Figma · LambdaTest
